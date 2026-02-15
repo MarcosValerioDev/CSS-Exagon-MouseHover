@@ -6,14 +6,19 @@
 }
 body
 {
+
 	min-height: 100vh;
 	background: #000;
 	overflow: hidden;
 }
 .container
 {
+	background-image: url("./exagonback.png");
+	background-repeat: repeat;
+	background-size: 256px;
 	position: relative;
 	height: 100vh;
+	width: 100vw;
 	overflow: hidden;
 	z-index: 2;
 }
