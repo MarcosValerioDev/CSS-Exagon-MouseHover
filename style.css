@@ -3,7 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	user-select: none;
-	touch-action: none;
+		overflow: hidden;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 	user-select: none;
 	background-image: url("./exagonback.png");
 	background-repeat: repeat;
-	background-size: 256px;
+	background-size: 128px;
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -41,13 +41,14 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 400px;
-	height: 400px;
+	width: 300px;
+	height: 300px;
 	background: #0f0;
 	border-radius: 50%;
 	transform: translate(-50%, -50%);
 	animation: animate 4s linear infinite;
 	z-index: 1;
+		overflow: hidden;
 }
 
 @keyframes animate {
