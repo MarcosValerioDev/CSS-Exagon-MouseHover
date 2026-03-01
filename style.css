@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 	user-select: none;
 		overflow: hidden;
+		
 }
 
 body {
@@ -11,6 +12,7 @@ body {
 	min-width: 100%;
 	background: #000;
 	overflow: hidden;
+touch-action: none;
 }
 
 .container {
@@ -25,16 +27,19 @@ body {
 	min-width: 100%;
 	overflow: hidden;
 	z-index: 2;
+	touch-action: none;
 }
 
 .row {
 	display: inline-flex;
 	margin-top: -32px;
 	margin-left: -50px;
+	touch-action: none;
 }
 
 .row:nth-child(even) {
 	margin-left: 1px;
+	touch-action: none;
 }
 
 #cursor {
